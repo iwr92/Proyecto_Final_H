@@ -1,0 +1,47 @@
+.allContainerChat {
+    width: 25rem;
+    height: 30rem;
+}
+
+.containerChat {
+    display: flex;
+    justify-content: center;
+}
+
+/* .botonAyuda {
+    background-color: aqua;
+}
+
+.botonAyuda>button {
+    float: right;
+    border-radius: 100%;
+    width: 5rem;
+    border: none;
+}
+
+.botonAyuda>button>img {
+    z-index: 10;
+    margin-left: -2rem;
+    width: 7rem;
+} */
+
+.botonAyuda{
+    position: fixed;
+    right: 0rem;
+    bottom: 0;
+
+}
+
+.botonAyuda > button{
+    padding: 0;
+    width: 6rem;
+    border-radius: 100%;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+.botonAyuda > button > img{
+    transform: translateX(-175%);
+    width: 7rem;
+}

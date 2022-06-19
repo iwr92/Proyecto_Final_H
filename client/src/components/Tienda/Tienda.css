@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+
+.containernavbartienda{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contTituloTiendaWeb{
+    display: flex;
+    justify-content: flex-end;
+    width: 18em;
+    align-items: center;
+    background-color: transparent;
+}
+
+.botonTiendaWeb{
+    font-family: Montserrat;
+    letter-spacing: 6px;
+    background: rgba(0, 0, 0, 0.114);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-shadow: rgb(255, 0, 0) 0 0, cyan 0 0;
+    transition: text-shadow 200ms;
+}
+
+
+
+.botonTiendaWeb:hover{
+    text-shadow: #d40000 -3px 0, cyan -4px 0;
+}
+
+.botonTiendaWeb > h5 {
+    margin-top: 10px;
+}
+
+
+
+ .cardsTienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 7rem;
+    animation: move 2s;
+
+} 
+
+@keyframes move {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+    
+}
+
+.LinkDetail {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarTienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.botonVolver {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.LinkVolver {
+    text-decoration: none;
+}
+
+.LinkDetail {
+    color: white;
+}
+
+.LinkDetail:hover {
+    color: rgb(82, 82, 82);
+}
+
+.LinkDetail>button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.buttonComprar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.buttonComprar>button {
+    padding: 1.2rem;
+}
+
+
+.botonOrdenar{
+    background-color: transparent;
+    color: white;
+    font-weight: lighter;
+    margin-left: 4em;
+}
+
+.ordenDrop{
+    transform: translateX(32%);
+    width: 100%;
+}
+
+.contOrder {
+    position: relative;
+}
+
+.allCarrito {
+    display: none;
+}
+
+.botonCarrito{
+    margin-left: 1rem;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+}
+
+.divCarrito {
+    display: flex;
+    float: right;
+}
+
+.buttonup > a{
+    position: fixed;
+    right: 0.1rem;
+    bottom: 7rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    width: 4rem;
+}
+
+.buttonup>a>img {
+    width: auto;
+    margin: 0;
+}
+
+.divNavbarTienda{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+}
+
+.navbar-brandtienda {
+    width: 60px;
+    height: 50px;
+    background-size: 100%;
+    margin-top: -20px;
+    background-image: url("https://images.vexels.com/media/users/3/132674/isolated/preview/5de3fc4efa4d8ff72773bfc119c1a8e9-bigote-blanco-hipster-3.png");
+}
+
+.navbar-brandtienda{
+    width: 60px;
+     height: 50px;
+     background-size: 100%;
+     margin-top: -20px;
+     background-image: url("https://images.vexels.com/media/users/3/132674/isolated/preview/5de3fc4efa4d8ff72773bfc119c1a8e9-bigote-blanco-hipster-3.png");
+}
+
+.numeroitems{
+    position: relative;
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transform: translate(3rem, -2rem);
+}
+
+
+.imgCarrito{
+    /* position: absolute; */
+    z-index: -1;
+    margin: 0;
+}
+
+/* .generalcont{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.searchbar{
+    color: white;
+}
+
+.imagen-corazon-rojo{
+    transform: translate(2rem,-36.5rem);
+    margin-left: 23rem;
+    width: 30px;
+    position: absolute;
+
+}
+
+.imagen-corazon-rojo:hover{
+    cursor: pointer;
+}
+
+.imagen-corazon-gris{
+    transform: translate(2rem, -36.5rem);
+    margin-left: 23rem;
+    width: 36px;
+    position: absolute;
+}
+
+.imagen-corazon-gris:hover{
+    cursor: pointer;
+    z-index: 99999999;
+}
+
+.corazon-amarillo{
+    margin: 0px;
+    margin-left: 5rem;
+    transform: translateY(1rem);
+    width: 2rem;
+}
+
+.corazon-amarillo:hover{
+    cursor: pointer;
+}
+
+.ulCarrito{
+
+    padding: 0;
+    margin: 0;
+}
+
+.ulCarrito > button{
+
+    padding: 0;
+    margin: 0;
+}
+
+.divCarritouno{
+    float: left;
+}
+
+.masinfo{
+    transform: translate(1rem, -2.5rem);
+}
+
+.containernavbartienda{
+    background-color:rgba(0, 0, 0, 0.295);
+}
+
+.label-min{
+    font-size: 15px;
+    margin-right: 8px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: wheat;
+}
+
+.input-min{
+    width: 3rem;
+    border-radius: 5px;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.label-max{
+    font-size: 15px;
+    margin-right: 8px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: wheat;
+}
+
+.input-max{
+    width: 3rem;
+    border-radius: 5px;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.filter-range-filtrar{
+    border-radius: 15px;
+    background-color: #eed220;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 45px;
+    
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
+
+.formRango{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

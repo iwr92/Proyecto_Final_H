@@ -1,0 +1,31 @@
+/* 
+.form-control{
+    height: 30px;
+}
+
+.btn{
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+.formSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-left: 2%;
+}
+
+.formSearch>input {
+    height: 2em;
+    width: 10rem;
+}
+
+.formSearch>button {
+    height: 2em;
+    padding: 3px;
+}

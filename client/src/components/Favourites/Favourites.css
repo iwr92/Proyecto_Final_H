@@ -1,0 +1,195 @@
+/*Cards Favoritos*/
+
+.container-General{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: favo 2s;
+}
+
+@keyframes favo {
+    from{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+}
+.container-Favourites{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title-Favoritos{
+    font-size: 3rem;
+    margin-top: 35px;
+    margin-bottom: 1rem ;
+    font-family: Gelasio;
+    font-style: italic;
+    animation: titleFav 1s;
+}
+
+@keyframes titleFav {
+    from{
+        font-size: 6rem;
+        letter-spacing: 2rem;
+      }
+      to{
+        font-size: 3rem;
+      }
+}
+
+
+
+/*Card favorito*/
+
+.container-Card-Favourite{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 8px 10px #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.container-Img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 550px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 12rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonDetalleComprar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    margin-bottom: -2px;
+}
+
+.botonDetalleQuitar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    margin-bottom: -2px;
+    margin-left: 1rem;
+}
+
+.container-Text > h3 {
+    font-family: Gelasio;
+}
+
+.botonVolverFav{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #8F5800;
+    color: #fff;
+    transition: all .5s;
+}
+
+.botonVolverFav:hover{
+    background-color: #c07600;
+    border: none;
+}
+
+
+
+/* -------------------- */
+
+
+
+/* .containerCard{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 8px 10px #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.containerImg{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 550px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 12rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .botonTiendaComprar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    margin-bottom: -2px;
+} 
+
+.containerText > h3 {
+    font-family: Gelasio;
+}
+
+.containerText > h3 > i b{
+    font-family: Gelasio;
+} */
+
+
+

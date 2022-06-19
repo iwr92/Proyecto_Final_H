@@ -1,0 +1,34 @@
+
+.divwsp>a {
+    position: fixed;
+    right: .5rem;
+    bottom: 8rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    z-index: 10000;
+}
+
+.divwsp>a>img {
+    margin-left: 0;
+    width: 4rem;
+}
+
+.botonQuienes {
+    cursor: pointer;
+}
+
+.botonServicios {
+    cursor: pointer;
+}
+
+.linkReserva>button {
+    padding: 7px;
+    text-align: center;
+}
+
+.chatbotDiv{
+    z-index: 200000;
+}
